@@ -10,3 +10,20 @@ const ds = document.querySelectorAll('.div')
 ds.forEach(element =>{
     element.textContent = 'green'
 })
+
+let nm = document.querySelector('#input1')
+let ms = nm.value.trim()
+
+let pass = document.querySelector('#pass')
+pass.value.trim();
+let but = document.querySelector('button')
+
+function change(){
+   if(ms !== '' )
+   ms 
+   console.log(ms)
+}
+
+but.addEventListener('click',change)
+
+
